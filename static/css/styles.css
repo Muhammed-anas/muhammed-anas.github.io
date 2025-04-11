@@ -14,11 +14,19 @@ top:0;
 }
 
 .middle-container{
-width:100%;
-height:90vh;
+width:80%;
+height:100vh;
 display:flex;
 background-color:#081b29;
 overflow: hidden;
+}
+
+.bottom-container{
+  width:100%;
+  height:40vh;
+  display:flex;
+  background-color: #0f2027;
+
 }
 
 #hel{
@@ -42,6 +50,7 @@ padding-top: 10%;
 #profession{
 position:relative;
 font-size: clamp(20px, 4vw, 40px);
+font-family: "Poppins-extrabold";
 color:#9df9ef;
 text-align: center;
 letter-spacing: 3.75pt;
@@ -91,7 +100,7 @@ font-family:"Anton", serif;
 color:LightBlue;
 text-align:left;
 padding:10% 0% 0% 10%;
-font-size:30px;
+font-size: clamp(12px, 4vw, 30px)
 }
 
 #profile-info{
@@ -107,6 +116,14 @@ margin:1rem;
 display:flex;
 gap:20px;
 }
+
+.contact-me{
+  color: white;
+  font-family:"Anton", serif;
+  text-align: center;
+  padding: 20%;
+}
+
 
 #tsparticles {
     position: fixed;
