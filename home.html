@@ -20,18 +20,18 @@
 <link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
 
      <link rel="stylesheet"  type="text/css" href="static/css/styles.css">
-    <title>portfolio-website</title>
+    <title>MUHAMMED ANAS</title>
 </head>
 <body>
 
 
 <div id="tsparticles"></div>
-<div class="container-fluid top-container">
-  <div class="row">
-    <div class="col-12 col-md-10 col-lg-8 mx-auto">
+<div class="container-fluid top-container d-flex justify-content-center align-items-center">
+  
+    <div class="text-center">
+      <h4 id="hel" ><code>&lt;hello world/&gt;</code></h4>
       <h1 id="name"> MUHAMMED ANAS</h1>
-    <h2 id="profession">Software developer</h2>
-</div>
+    <h2 id="profession">SOFTWARE DEVELOPER</h2>
 </div>
 </div>
 
@@ -39,7 +39,7 @@
     <div class="about-me">
         <div id="profile-description">
         <h2 id="profile-info">About Me</h2>
-        <p>I am Muhammed Anas, an aspiring Python Developer<br> with a deep passion for crafting innovative solutions<br> and building
+        <p>I'm Muhammed Anas, an aspiring Software Developer<br> with a deep passion for crafting innovative solutions<br> and building
         responsive web applications.<br> I have a solid foundation in programming and expertise <br> in Python. HTML, CSS, JavaScript,
             Flask, and Django,<br> which I continuously strive to improve as I progress<br> in my career.</p>
        </div>
@@ -72,20 +72,20 @@
   tsParticles.load("tsparticles", {
     background: {
       color: {
-        value: "#0f2027" // dark blue gradient background
+        value: "#0d1b2a" // elegant dark night blue
       }
     },
     fpsLimit: 60,
     particles: {
       number: {
-        value: 80,
+        value: 90,
         density: {
           enable: true,
-          area: 800
+          area: 1000
         }
       },
       color: {
-        value: "#ffffff"
+        value: "#2e9cef" // glowing yellow (like fireflies)
       },
       shape: {
         type: "circle"
@@ -95,45 +95,72 @@
         random: true,
         anim: {
           enable: true,
-          speed: 0.3,
-          opacity_min: 0.2,
+          speed: 0.4,
+          opacity_min: 0.1,
           sync: false
         }
       },
       size: {
-        value: 2,
-        random: true
+        value: 2.5,
+        random: true,
+        anim: {
+          enable: true,
+          speed: 1.5,
+          size_min: 0.4,
+          sync: false
+        }
       },
       move: {
         enable: true,
-        speed: 0.2,
+        speed: 0.4,
         direction: "none",
+        random: true,
+        straight: false,
         out_mode: "out"
+      },
+      links: {
+        enable: true,
+        distance: 120,
+        color: "#2ec7ef",
+        opacity: 0.1,
+        width: 1
       }
     },
     interactivity: {
       events: {
         onhover: {
           enable: true,
-          mode: "grab"
+          mode: ["bubble", "grab"]
         },
         onclick: {
-          enable: false
+          enable: true,
+          mode: "repulse"
         },
         resize: true
       },
       modes: {
+        bubble: {
+          distance: 120,
+          size: 5,
+          duration: 2,
+          opacity: 0.8
+        },
         grab: {
-          distance: 100,
+          distance: 140,
           line_linked: {
-            opacity: 0.4
+            opacity: 0.3
           }
+        },
+        repulse: {
+          distance: 100,
+          duration: 0.4
         }
       }
     },
     retina_detect: true
   });
-  </script>
+</script>
+
   
 </body>
 </html>

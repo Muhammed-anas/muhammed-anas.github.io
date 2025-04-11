@@ -21,23 +21,31 @@ background-color:#081b29;
 overflow: hidden;
 }
 
+#hel{
+  color: #64a5eb;
+  position: relative;
+  padding-top: 5%;
+}
+
 #name {
-position:absolute;
+position:relative;
 color:white;
-font-size:50px;
+font-size: clamp(60px, 5vw, 120px);
 font-style:bold;
+font-family: "Poppins-extrabold";
 text-align: center;
-right:30%;
-top: 30%;
+letter-spacing: 3.75pt;
+font-weight: 800;
+padding-top: 10%;
 }
 
 #profession{
-position:absolute;
-font-size:40px;
+position:relative;
+font-size: clamp(20px, 4vw, 40px);
 color:#9df9ef;
 text-align: center;
-top: 40%;
-right:40%;
+letter-spacing: 3.75pt;
+padding-top: 10px;
 }
 
 .video{
