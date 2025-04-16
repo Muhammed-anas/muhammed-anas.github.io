@@ -10,6 +10,7 @@
     crossorigin="anonymous">
    
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
 
 
 <!--    fonts-->
@@ -17,7 +18,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
 
-<link href="{% static 'vendor/fontawesome-free/css/all.min.css' %}" rel="stylesheet" type="text/css">
+<link href="static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 
      <link rel="stylesheet"  type="text/css" href="static/css/styles.css">
     <title>MUHAMMED ANAS</title>
@@ -26,55 +27,87 @@
 
 
 <div id="tsparticles"></div>
-<div class="container-fluid top-container d-flex justify-content-center align-items-center">
+
+<div class="container-fluid top-container d-flex justify-content-center">
   
     <div class="text-center">
-      <h4 id="hel" ><code>&lt;hello world/&gt;</code></h4>
+      <h4 id="hello-world" ><code>&lt;hello world/&gt;</code></h4> 
       <h1 id="name"> MUHAMMED ANAS</h1>
-    <h2 id="profession">SOFTWARE DEVELOPER</h2>
+      <h2 id="profession">SOFTWARE DEVELOPER</h2>
+
 </div>
+<a href="#about" class="scroll-down">
+  <span></span>
+</a>
 </div>
 
 <div class="col-12 col-md-10 col-lg-8 mx-auto middle-container">
-    <div class="about-me">
+    <div class="about-me" id="about">
         <div id="profile-description">
+        
         <h2 id="profile-info">About Me</h2>
-        <p>I'm Muhammed Anas, an aspiring Software Developer<br> with a deep passion for crafting innovative solutions<br> and building
-        responsive web applications.<br> I have a solid foundation in programming and expertise <br> in Python. HTML, CSS, JavaScript,
-            Flask, and Django,<br> which I continuously strive to improve as I progress<br> in my career.</p>
+        <p>I'm Muhammed Anas, an aspiring Software Developer with a deep passion for crafting innovative solutions and building
+        responsive web applications. I have a solid foundation in programming and expertise  in Python. HTML, CSS, JavaScript,
+            Flask, and Django, which I continuously strive to improve as I progress in my career.
+          </p>
        </div>
         <div class="buttons">
-            <button type="button" class="btn btn-info hire "> Hire Me</button>
-            <button type="button" class="btn  btn-outline-info contact">Contact Me</button>
+            <a type="button" class="btn btn-primary hire "> Hire Me</a>
+            <a type="button" class="btn  btn-outline-primary contact" href="mailto:muhammedanas6282@email.com">Contact Me</a>
 
         </div>
         <img class="profile-img" src="static/img/anu-profile.png">
       </div>
 </div>
 
-<div class="container-fluid bottom-container d-flex justify-content-center align-items-center">
+<footer>
+<div class="container-fluid bottom-container d-flex">
 <div class="contact-me">
   <h2>Get In Touch</h2>
-  <h3>Connect me, if you want</h3>
-  <p class="contact-message">I’m always excited to connect with like-minded individuals, whether it’s to discuss new ideas, collaborate on projects, or simply network. If you’re interested in AI, Python development, or anything tech-related, feel free to reach out. Let’s explore how we can work together to create something amazing!</p>
-  <a class="btn" href="mailto:muhammedanas6282@email.com">Contact Me</a>
+  <h3>Connect me</h3>
+  <p class="contact-message">I’m always excited to connect with like-minded individuals,
+     whether it’s to discuss new ideas, collaborate on projects, or simply network.
+      If you’re interested in AI, Python development, or anything tech-related, feel free to reach out.
+       Let’s explore how we can work together to create something amazing!</p>
+  <a class="btn ftr-btn btn-primary" href="mailto:muhammedanas6282@email.com">Contact Me</a>
 </div>
 
 
+<div class="footer ftr-txt">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+      <ul class="list-inline text-center social-links">
+        <li class="list-inline-item">
+          <a href="https://www.linkedin.com/in/muhammed-anas-m-a-883843277/">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </li>
 
-<div class="footer">
-<a class="footer-link" href="https://www.linkedin.com/in/muhammed-anas-m-a-883843277/">LinkedIn</a>
-<a class="footer-link" href="https://github.com/Muhammed-anas">github</a>
-<p CLASS="copy-right">© 2024 Anas Anu.</p>
+        <li class="list-inline-item">
+          <a href="https://github.com/Muhammed-anas">
+            <span class="fa-stack fa-lg">
+              <i class="fas fa-circle fa-stack-2x"></i>
+              <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+            </span>
+          </a>
+        </li>
+
+      </ul>
+      <p class="copyright text-muted">Copyright &copy; Anasanu 2024</p>
+    </div>
+  </div>
 </div>
 </div>
-
+ 
 
 <script>
   tsParticles.load("tsparticles", {
     background: {
       color: {
-        value: "#0d1b2a" // elegant dark night blue
+        value: "#0d1b2a" 
       }
     },
     fpsLimit: 60,
@@ -87,7 +120,7 @@
         }
       },
       color: {
-        value: "#2e9cef" // glowing yellow (like fireflies)
+        value: "#2e9cef" 
       },
       shape: {
         type: "circle"
