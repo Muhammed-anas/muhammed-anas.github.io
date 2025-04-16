@@ -17,6 +17,7 @@ max-height:80vh;
 display:flex;
 background-color:#081b29;
 overflow: hidden;
+margin-top: 5%;
 }
 
 .bottom-container{
