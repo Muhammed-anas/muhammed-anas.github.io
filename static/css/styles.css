@@ -41,13 +41,13 @@ margin-top: 5%;
 #name {
 position:relative;
 color:white;
-font-size: clamp(60px, 5vw, 180px);
+font-size: clamp(60px, 5vw, 170px);
 font-style:bold;
 font-family: "Poppins-extrabold";
 text-align: center;
 letter-spacing: 3.75pt;
 font-weight: 800;
-padding-top: 40%;
+padding: 40% 5px 0 5px;
 }
 
 #profession{
