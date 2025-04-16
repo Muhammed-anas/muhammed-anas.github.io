@@ -78,6 +78,7 @@ padding:5% 35% 0 15%;
 font-size: clamp(15px, 3vw, 22px)
 }
 
+
 #profile-info{
 color:#2a80db;
 }
@@ -98,14 +99,13 @@ gap:20px;
   font-family:"Anton", serif;
   font-size: clamp(5px, 3vw, 18px);
   text-align: center;
-  padding: 5%;
+  padding: 5% 20%;
 }
 
 
 .social-links{
   position: relative;
-  
-
+  padding: 5% 5% 0 5%;
 }
 
 
