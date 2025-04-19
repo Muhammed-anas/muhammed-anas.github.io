@@ -55,7 +55,7 @@ I’m currently exploring:
 
 Interested in AI, robotics, or full stack Python development? Let's connect and share ideas.
 
-- 📧 Email: yourmail@example.com  
+- 📧 Email: muhammedanas6282@gmail.com  
 - 🔗 [LinkedIn](https://linkedin.com/in/muhammed-anas-ma)  
 - 🐙 [GitHub](https://github.com/Muhammed-anas)
 
