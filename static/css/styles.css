@@ -76,7 +76,7 @@ font-family:"Anton", serif;
 color:LightBlue;
 text-align:left;
 padding:5% 35% 0 15%;
-font-size: clamp(15px, 3vw, 22px)
+font-size: clamp(15px, 2.5vw, 20px)
 }
 
 
