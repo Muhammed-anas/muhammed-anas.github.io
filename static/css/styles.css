@@ -104,7 +104,7 @@ font-family:"Anton", serif;
 color:LightBlue;
 text-align:left;
 padding:5% 35% 0 15%;
-font-size: clamp(18px, 2.5vw, 25px)
+font-size: clamp(15px, 2.5vw, 22px)
 }
 
 #profile-info{
@@ -124,6 +124,9 @@ gap:20px;
 .project-description{
   padding: 20px;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: large;
 }
 
 .card-section{
@@ -133,7 +136,7 @@ gap:20px;
   text-align: center;
 }
 
-@media(min-width:700px){
+@media(min-width:600px){
   .card-section{
    grid-template-columns: repeat(2, 1fr); 
   }
@@ -171,9 +174,8 @@ gap:20px;
   height: 250px;
 }
 
-
 .card-body{
-  padding: 0;
+  padding: 10px 0 2px 0;
   text-align: start;
   margin-left: 40px;
 }
@@ -183,6 +185,19 @@ gap:20px;
 
 .card-text{
   font-size: 12px;
+  padding-bottom: 8px;
+}
+
+.hover-text{
+  font-size: 12px;
+  padding-bottom: 8px;
+  position: absolute;
+  left: 40px;
+}
+
+.card .card-text,
+.card .hover-text{
+  transition:opacity 0.3s ease ;
 }
 
 .card:hover{
@@ -190,13 +205,53 @@ gap:20px;
   box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
 }
 
+.card .card-text{
+  opacity: 1;
+}
+
+.card .hover-text{
+  opacity: 0;
+  
+}
+
+.card:hover .card-text{
+  opacity: 0;
+}
+
+.card:hover .hover-text{
+  opacity: 1;
+  display: inline;
+}
+
+.card-heading{
+  font-size: 25px;
+}
 .btn-site{
   border-radius: 2px;
   border-color: #00ffff;
   float: left;
 }
+
+.btn-github{
+  border-radius: 2px;
+  border-color:skyblue;
+  margin-left: 80px;
+}
+
+
 .btn-close{
   float: right;
+  margin-top: 5px;
+}
+
+.bi-box-arrow-up-right{
+  padding-left: 8px;
+}
+
+.bi-arrow-right-circle-fill{
+  padding-left: 5px;
+  margin-bottom: 2px;
+  font-size: 15px;
 }
 
 .contact-me{
