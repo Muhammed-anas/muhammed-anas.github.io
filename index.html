@@ -18,6 +18,8 @@
 
 
     <!--####################    JS  ###################-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
     
 
@@ -30,7 +32,11 @@
     <!--####################    CSS  ###################-->
     <link rel="stylesheet"  type="text/css" href="static/css/styles.css">
    
+    <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+
 </head>
+
+
 
 <body>
 
@@ -86,52 +92,48 @@
 
       <div class="card-section">
 
-        <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
-          <img src="static/img/img1.jpg" alt="" class="card-img-top">
+        <div class="card default-card" data-aos="fade-up" data-bs-toggle="modal" data-bs-target="#projectModal1">
+          <img src="static/img/bloggy-cover.png" alt="" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">AutoLux</h5>
-           <p class="card-text">Python</p>
+            <h5 class="card-title">Bloggy</h5>
+           <p class="card-text">Python/Django</p>
           </div>
         </div>
 
-       <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
-          <img src="static/img/img2.jpg" alt="" class="card-img-top">
+       <div class="card default-card" data-aos="fade-left" data-bs-toggle="modal" data-bs-target="#projectModal2">
+          <img src="static/img/shopfy-cover.png" alt="" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">AutoLux</h5>
-           <p class="card-text">Python</p>
+            <h5 class="card-title">Shopy</h5>
+           <p class="card-text">React/Node/Express/Mongo DB</p>
           </div>
         </div>
 
-        <div class="card large" data-bs-toggle="modal" data-bs-target="#modal1">
-          <img src="static/img/img3.jpg" alt="" class="card-img-top">
+        <div class="card default-card card-3" data-aos="fade-right" data-bs-toggle="modal" data-bs-target="#projectModal3">
+          <img src="static/img/galaxnova-cover.png" alt="" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">AutoLux</h5>
-           <p class="card-text">Python</p>
+            <h5 class="card-title">GalaxNova</h5>
+           <p class="card-text">React/Tailwand Css</p>
           </div>
         </div>
 
-        <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
-          <img src="static/img/img5.jpg" alt="" class="card-img-top">
+        <div class="card large" data-aos="fade-up-right" data-bs-toggle="modal" data-bs-target="#projectModal4">
+          <img src="static/img/autolux-cover.png" alt="" class="card-img-top">
           <div class="card-body">
             <h5 class="card-title">AutoLux</h5>
-           <p class="card-text">Python</p>
+           <p class="card-text">Python/Django</p>
           </div>
         </div> 
 
-        <div class="card" data-bs-toggle="modal" data-bs-target="#modal1">
-          <img src="static/img/img4.jpg" alt="" class="card-img-top">
+        <div class="card default-card"  data-aos="fade-up-left" data-bs-toggle="modal" data-bs-target="#projectModal5">
+          <img src="static/img/profile-cover.png" alt="" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">AutoLux</h5>
-           <p class="card-text">Python</p>
+            <h5 class="card-title">Portfolio Website</h5>
+           <p class="card-text">Html/Css/Js</p>
           </div>
         </div>
 
-        
-
       </div>
-      
-    </div>
-    
+    </div> 
 </section>
 
 
@@ -171,7 +173,143 @@
   </div>
  
 
+<div class="modal fade" id="projectModal1" tabindex="-1" aria-labelledby="projectModal1label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
 
+    <div class="modal-content text-white">
+
+      <div class="position-relative">
+      <img id="projectImage" src="static/img/b-1.png" alt="Bloggy full view" class="img-fluid rounded-top"> 
+      <button class="btn position-absolute top-50 start-0 translate-middle-y text-black" onclick="changeImage(-1)">❮
+      </button>
+
+      <button class="btn position-absolute top-50 end-0 translate-middle-y text-black" onclick="changeImage(1)">❯
+      </button>
+
+    </div>
+
+
+      <div class="modal-body text-center px-4">  
+        <h3 class="fw-bold mb-3" id="projectModal1label">Bloggy</h3>    
+        <p>A minimalist and responsive blog platform where I share insights on coding, technology, and personal experiences.
+           Bloggy reflects clean design, structured content, and performance optimization.</p>
+        <a href="" class="btn btn-secondary btn-site" target="_blank">View Site</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="projectModal2" tabindex="-1" aria-labelledby="projectModal2label" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+
+    <div class="modal-content text-white">
+      <div class="position-relative">
+      <img id="projectImage" src="static/img/s-1.png" alt="shopfy full view" class="img-fluid rounded-top"> 
+      <button class="btn position-absolute top-50 start-0 translate-middle-y text-black" onclick="changeImage(-1)">❮
+      </button>
+
+      <button class="btn position-absolute top-50 end-0 translate-middle-y text-black" onclick="changeImage(1)">❯
+      </button>
+
+    </div>
+      
+      <div class="modal-body text-center px-4">
+        <h2 class="fw-bold mb-3" id="projectModal2label">Shopfy</h2>
+        <p class="mb-4">
+          An eCommerce web application built to simulate an online shopping experience with product listings, detailed pages,
+          add-to-cart functionality, and a checkout flow — demonstrating full-stack development skills.
+        </p>
+       <a href="" class="btn btn-secondary btn-site" target="_blank">View Site</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="modal fade" id="projectModal3" tabindex="-1" aria-labelledby="projectModal3label" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content text-white">
+      <div class="position-relative">
+      <img id="projectImage" src="static/img/galaxnova-cover.png" alt="GalaxNova full view" class="img-fluid rounded-top"> 
+      <button class="btn position-absolute top-50 start-0 translate-middle-y text-black" onclick="changeImage(-1)">❮
+      </button>
+
+      <button class="btn position-absolute top-50 end-0 translate-middle-y text-black" onclick="changeImage(1)">❯
+      </button>
+
+    </div>
+      <div class="modal-body text-center px-4">
+        <h2 class="fw-bold mb-3" id="projectModal3label">GalaxNova</h2>
+        <p class="mb-4">
+          An AI-powered chatbot platform with a cosmic theme, designed to deliver smart and interactive conversations.
+          GalaxNova showcases my skills in AI integration, chatbot UI, and creative front-end design.
+        </p>
+        <a href="" class="btn btn-secondary btn-site" target="_blank">View Site</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="projectModal4" tabindex="-1" aria-labelledby="projectModal4label" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content text-white">
+      <div class="position-relative">
+      <img id="projectImage" src="static/img/a-1.png" alt="AutoLux full view" class="img-fluid rounded-top"> 
+      <button class="btn position-absolute top-50 start-0 translate-middle-y text-black" onclick="changeImage(-1)">❮
+      </button>
+
+      <button class="btn position-absolute top-50 end-0 translate-middle-y text-black" onclick="changeImage(1)">❯
+      </button>
+
+    </div>
+      <div class="modal-body text-center px-4">
+        <h2 class="fw-bold mb-3" id="projectModal4label">AutoLux</h2>
+        <p class="mb-4">
+          A platform to list and buy used cars, featuring user-friendly car listings, filters, and detailed pages.
+          AutoLux combines modern UI with practical functionality tailored for automotive reselling.
+        </p>
+        <a href="" class="btn btn-secondary btn-site" target="_blank">View Site</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="projectModal5" tabindex="-1" aria-labelledby="projectModal5label" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered ">
+    <div class="modal-content text-white">
+      <div class="position-relative">
+      <img id="projectImage" src="static/img/profile-cover.png" alt="Portfolio full view" class="img-fluid rounded-top"> 
+      <button class="btn position-absolute top-50 start-0 translate-middle-y text-black" onclick="changeImage(-1)">❮
+      </button>
+
+      <button class="btn position-absolute top-50 end-0 translate-middle-y text-black" onclick="changeImage(1)">❯
+      </button>
+
+    </div>
+      <div class="modal-body text-center px-4">
+        <h2 class="fw-bold mb-3" id="projectModal5label">Portfolio Website</h2>
+        <p class="mb-4">
+          A personal portfolio to highlight my skills, resume, and projects. Built with responsive design and smooth
+          navigation to create a strong first impression for recruiters and collaborators.
+        </p>
+        <a href="" class="btn btn-secondary btn-site" target="_blank">View Site</a>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
 <!--####################    tsparticles  ###################-->
 <div id="tsparticles"></div>
 <script>
@@ -267,7 +405,32 @@
   });
 </script>
 
-  
+<script>
+  const images = [
+  "static/img/b-1.png",
+  "static/img/b-2.png",
+  "static/img/b-3.png",
+  "static/img/b-4.png",
+  "static/img/b-5.png"
+  ];
+  let currentImageIndex = 0;
+  function changeImage(step){
+    currentImageIndex = (currentImageIndex +step + images.length) % images.length;
+    document.getElementById("projectImage").src = images[currentImageIndex];
+  }
+</script>  
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+
+
 </body>
 </html>
 
