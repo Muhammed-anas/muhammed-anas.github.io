@@ -237,7 +237,10 @@ gap:20px;
   border-color:skyblue;
   margin-left: 80px;
 }
-
+.btn-change{
+  font-weight: 900;
+  font-size:x-large;
+}
 
 .btn-close{
   float: right;
