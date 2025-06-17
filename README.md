@@ -1,4 +1,3 @@
-
 # 👋 Hi, I'm Muhammed Anas
 
 Welcome to my developer portfolio! I'm a **Python Developer** with a deep passion for **Artificial Intelligence**, **Full Stack Web Development**, and building **intelligent physical robots**. This portfolio reflects my journey and vision—creating meaningful software that bridges the gap between humans and machines.
@@ -9,7 +8,7 @@ Welcome to my developer portfolio! I'm a **Python Developer** with a deep passio
 
 With a strong foundation in Python and web technologies, I build dynamic web apps, automate processes, and experiment with AI-powered solutions. My ambition lies in blending AI with robotics—developing systems that don’t just respond intelligently but also **see**, **hear**, and **move**.
 
-> _"Code is where logic meets creativity, and AI is where machines meet intelligence."_  
+> _"Code is where logic meets creativity, and AI is where machines meet intelligence."_
 
 ---
 
@@ -45,9 +44,10 @@ Inspired by technologies like **ChatGPT**, I aim to develop systems that think, 
 
 ## 🧪 Featured Projects
 
-- 🎬 **[AI Movie Recommender](https://github.com/Muhammed-anas)** – Personalized movie suggestions using TMDb API
-- 📝 **[Blog Website with Flask](https://github.com/Muhammed-anas)** – Clean, full-featured blog system with SQLite
-- 💼 **[Responsive Portfolio Website](https://github.com/Muhammed-anas)** – This site!
+- 🛍️ **[Shopfy](https://shopfy-ncx.netlify.app/)** – Full stack MERN-based eCommerce platform with multi-step checkout  
+- 🤖 **[GalaxNova](https://galaxnova.netlify.app/)** – AI-themed chatbot interface built with React + Tailwind CSS  
+- 🚘 **[Autolux](https://autolux-ntbk.onrender.com/)** – Vehicle services automation platform powered by Django  
+- 📝 **[Bloggy](https://bloggy-4xrs.onrender.com)** – Django-based blogging platform with image uploads and post management  
 
 > Explore more on my [GitHub profile](https://github.com/Muhammed-anas)
 
@@ -69,5 +69,3 @@ I'm always open to collaboration, especially on AI, full-stack apps, or robotics
 - 📧 Email: **muhammedanas6282@gmail.com**  
 - 🔗 [LinkedIn](https://linkedin.com/in/muhammed-anas-ma)  
 - 🐙 [GitHub](https://github.com/Muhammed-anas)
-
----
