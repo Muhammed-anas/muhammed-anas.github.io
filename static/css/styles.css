@@ -96,7 +96,13 @@ width:40%;
 opacity:0.7;
 position:relative;
 left:65%;
-bottom:90%;
+bottom:80%;
+}
+
+@media (min-width:1200px){
+  .profile-img{
+    bottom:95%;
+  }
 }
 
 #profile-description{
@@ -104,7 +110,7 @@ font-family:"Anton", serif;
 color:LightBlue;
 text-align:left;
 padding:5% 35% 0 15%;
-font-size: clamp(12px, 2.5vw, 22px)
+font-size: clamp(15px, 2.5vw, 22px)
 }
 
 #profile-info{
