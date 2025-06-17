@@ -20,16 +20,16 @@ body{
   margin-top: 5%;
 }
 
-@media (min-width:700px){
+@media (min-width:600px){
   .middle-container{
-    max-height:90vh;
+    max-height:100vh;
     margin-bottom: 40px;
   }
 }
 
-@media (min-width:1200px){
+@media (min-width:1250px){
   .middle-container{
-    max-height:85vh;
+    max-height:80vh;
     margin-bottom: 0;
   }
 }
@@ -104,7 +104,7 @@ font-family:"Anton", serif;
 color:LightBlue;
 text-align:left;
 padding:5% 35% 0 15%;
-font-size: clamp(15px, 2.5vw, 22px)
+font-size: clamp(12px, 2.5vw, 22px)
 }
 
 #profile-info{
@@ -166,8 +166,13 @@ gap:20px;
   border-radius: 10px;
   font-size: 1rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-  transition: transform 0.35 ease, box-shadow 0.3s ease;
+  transition: transform 0.50s ease, box-shadow 0.3s ease;
   cursor: pointer;
+}
+
+.card:hover{
+  transform: scale(1.07) !important;
+  box-shadow: 0 6px 25px rgba(1, 248, 240, 0.2) !important;
 }
 
 .default-card img{
@@ -199,12 +204,6 @@ gap:20px;
 .card .hover-text{
   transition:opacity 0.3s ease ;
 }
-
-.card:hover{
-  transform: scale(1.03);
-  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
-}
-
 .card .card-text{
   opacity: 1;
 }
