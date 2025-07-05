@@ -125,16 +125,17 @@ left:65%;
 bottom:75%;
 }
 
-@media (min-width:500px){
+@media (min-width:300px){
+  .profile-img{
+    bottom:65%;
+  }
+}
+@media (min-width:1200px){
   .profile-img{
     bottom:70%;
   }
 }
-@media (min-width:500px){
-  .profile-img{
-    bottom:70%;
-  }
-}
+
 
 #profile-description{
 font-family:"Anton", serif;
@@ -296,7 +297,7 @@ display:flex;
   .btn-github{
     border-radius: 1px;
     border-color:skyblue;
-    font-size: 5px;
+    font-size: 6px;
     
   }
 }
@@ -306,7 +307,7 @@ display:flex;
     border-radius: 1px;
     border-color: #00ffff;
     float: left;
-    font-size: 5px;
+    font-size: 6px;
     
   }
 }
